@@ -1,10 +1,10 @@
 const BLOG = {
   title: 'Rjiazhen的博客',
-  author: 'Ruan JiaZhen',
+  author: 'R JiaZhen',
   email: 'jiazhen.ruan@outlook.com',
   link: 'https://nobelium.vercel.app',
-  description: '分享技术、思想与生活',
-  lang: 'zh-CH', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  description: ' 分享技术、思考与生活',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
