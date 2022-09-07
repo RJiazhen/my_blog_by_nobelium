@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { useLocale } from '@/lib/locale'
-import Image from 'next/image'
-
 
 const NavBar = () => {
   const locale = useLocale()
@@ -71,20 +69,20 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                < Image src='favicon.png' alt="logo" width={24} height={24} />
+                <img src={'favicon.png'} alt="logo" style={{ width: '24px', height: '24px' }}></img>
               </div>
             </a>
           </Link>
           {navBarTitle
             ? (
               <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {navBarTitle}
+                {navBarTitle}
               </p>
             )
             : (
               <p className="ml-2 font-medium text-day dark:text-night header-name">
                 {BLOG.title} |
-              <span className="font-normal">{BLOG.description}</span>
+                <span className="font-normal">{BLOG.description}</span>
               </p>
             )}
         </div>
