@@ -86,8 +86,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 {BLOG.title} |
               <span className="font-normal">{BLOG.description}</span>
               </p>
-            )
-          }
+            )}
         </div>
         <NavBar />
       </div>
