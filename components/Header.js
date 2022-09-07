@@ -69,7 +69,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <img src={`/favicon.png`} alt="logo" style={{ width: '24px', height: '24px' }}></img>
+                <img src={'favicon.png'} alt="logo" style={{ width: '24px', height: '24px' }}></img>
               </div>
             </a>
           </Link>
@@ -81,7 +81,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
             )
             : (
               <p className="ml-2 font-medium text-day dark:text-night header-name">
-                {BLOG.title} | 
+                {BLOG.title} |
                 <span className="font-normal">{BLOG.description}</span>
               </p>
             )}
